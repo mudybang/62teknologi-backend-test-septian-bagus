@@ -21,6 +21,7 @@ Route::controller(RegisterController::class)->group(function(){
     Route::post('login', 'login');
 });
 Route::middleware('auth:sanctum')->group( function () {
+    Route::get('business/search', [BusinessController::class, 'index']);
     Route::resource('business', BusinessController::class);
 });
 

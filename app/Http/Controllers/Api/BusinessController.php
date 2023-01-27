@@ -67,8 +67,8 @@ class BusinessController extends BaseController{
             $data_[]=$row;
         }
 
-        $results=array_merge($result,array('rows'=>$data_,'sql'=>$data->toSql()));
-		return $this->sendResponse(BusinessResource::collection($data_), $data->toSql());
+        $results=array_merge($result,array('rows'=>BusinessResource::collection($data_),'sql'=>$data->toSql()));
+		return $this->sendResponse($results, "Data loaded");
     }
 
     /**
