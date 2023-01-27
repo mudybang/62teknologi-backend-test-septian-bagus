@@ -10,16 +10,16 @@ pass 12345678
 Param
 email :demo@demo.com
 password : 12345678
-![Screenshot](62-api-login.png)
+![Screenshot](62-api-login.jpg)
 
 # POST Create
-![Screenshot](62-api-post-create.png)
+![Screenshot](62-api-post-create.jpg)
 
 # PUT Update
-![Screenshot](62-api-put-update.png)
+![Screenshot](62-api-put-update.jpg)
 
 # DELETE
-![Screenshot](62-api-delete.png)
+![Screenshot](62-api-delete.jpg)
 
 # SEARCH
-![Screenshot](62-api-search.png)
+![Screenshot](62-api-search.jpg)
